@@ -201,12 +201,12 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.bdyun" name="百度云盘" version="0.1.9" provider-name="caasiu">
+<addon id="plugin.video.bdyun" name="百度云盘" version="0.1.10" provider-name="caasiu">
 	<requires>
-		<import addon="xbmc.python" version="2.20.0" />
-		<import addon="script.module.xbmcswift2" version="2.4.0" />
-        <import addon="script.module.requests" version="2.9.1" option="false" />
-        <import addon="script.module.keyboard.chinese" option="true" />
+            <import addon="xbmc.python" version="2.20.0" />
+            <import addon="script.module.xbmcswift2" version="2.4.0" />
+            <import addon="script.module.requests" version="2.9.1" option="false" />
+            <import addon="script.module.keyboard.chinese" version="2.0.5" option="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>audio video</provides>
@@ -785,7 +785,7 @@ For Non-PRC OS environment (Windows7|WindowsXP):[CR]"Control Panel"|"Region and 
 
 <addon id="service.subtitles.subhd"
        name="Sub HD"
-       version="1.0.11"
+       version="1.0.12"
        provider-name="taxigps">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
